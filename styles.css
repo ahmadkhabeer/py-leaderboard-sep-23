@@ -1,0 +1,243 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-image: url("images/background_1.jpg");
+  background-size: cover;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  color: #fefefc;
+  font-weight: bold;
+  width: 700px;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Goldman', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.left {
+  position: absolute;
+  top: 36%;
+  left: 25.2%;
+}
+
+.right {
+  position: absolute;
+  top: 36%;
+  right: 26.5%;
+}
+
+.title {
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  color: #182f41;
+  font-weight: bold;
+  font-family: 'Goldman', cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+.tcentered {
+  position: absolute;
+  top: 52%;
+  left: 39%;
+  transform: translate(-50%, -50%);
+}
+
+.tleft {
+  position: absolute;
+  top: 40%;
+  left: 22%;
+}
+
+.tright {
+  position: absolute;
+  top: 40%;
+  right: 23.5%;
+}
+
+.order {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  color: #fff;
+  font-family: 'Goldman', cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+.Ocentered {
+  position: absolute;
+  top: 52%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.medal {
+  position: absolute;
+  top: 18%;
+  left: 15%;
+}
+
+.Oleft {
+  position: absolute;
+  top: 40%;
+  left: 23.2%;
+}
+
+.Oright {
+  position: absolute;
+  top: 40%;
+  right: 24.5%;
+}
+
+@media only screen and (max-width: 884px) and (min-width: 646px) {
+  .header {
+    width: 520px;
+    font-size: 20px;
+  }
+  .left {
+    position: absolute;
+    top: 36%;
+    left: 22.5%;
+  }
+  
+  .right {
+    position: absolute;
+    top: 36%;
+    right: 24%;
+  }
+  .centered{
+    width: 120px !important;
+  }
+  .title {
+    width: 520px;
+    font-size: 13px;
+  }
+  .tleft {
+    position: absolute;
+    top: 40%;
+    left: 21%;
+  }
+  .tright {
+    position: absolute;
+    top: 40%;
+    right: 21%;
+  }
+  .tcentered {
+    position: absolute;
+    top: 52%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+  }
+  .order {
+    width: 520px;
+    font-size: 13px;
+  }
+  .Oleft {
+    position: absolute;
+    top: 34%;
+    left: 21.5%;
+  }
+  .Oright {
+    position: absolute;
+    top: 36%;
+    right: 23.5%;
+  }
+  .Ocentered {
+    position: absolute;
+    top: 50%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+  }
+  .medal {
+    position: absolute;
+    top: 16%;
+    left: 13%;
+    width: 26px !important;
+  }
+
+}
+@media only screen and (max-width: 645px) {
+  .header {
+    width: 470px;
+    font-size: 18px;
+  }
+  .left {
+    position: absolute;
+    top: 36%;
+    left: 23%;
+  }
+  .right {
+    position: absolute;
+    top: 36%;
+    right: 25%;
+  }
+  .centered{
+    width: 110px !important;
+  }
+  .title {
+    width: 470px;
+    font-size: 13px;
+  }
+  .tleft {
+    position: absolute;
+    top: 38%;
+    left: 20%;
+  }
+  .tright {
+    position: absolute;
+    top: 40%;
+    right: 21%;
+  }
+  .tcentered {
+    position: absolute;
+    top: 52%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+  }
+  .order {
+    width: 470px;
+    font-size: 13px;
+  }
+  .Oleft {
+    position: absolute;
+    top: 34%;
+    left: 21.5%;
+  }
+  .Oright {
+    position: absolute;
+    top: 36%;
+    right: 23.5%;
+  }
+  .Ocentered {
+    position: absolute;
+    top: 50%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+  }
+  .medal {
+    position: absolute;
+    top: 16%;
+    left: 13%;
+    width: 23px !important;
+  }
+}
